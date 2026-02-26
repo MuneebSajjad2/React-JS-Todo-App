@@ -8,3 +8,8 @@ export default defineConfig({
     tailwindcss(), // [2] Add this to the list
   ],
 })
+
+
+// export default defineConfig({
+//   base: "/Todo-App-with-React-Js-Tailwind/",
+// })
