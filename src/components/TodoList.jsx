@@ -27,8 +27,10 @@ export default function TodoList({
 
       {/* Empty State */}
       {todos.length === 0 ? (
-        <p style={{ opacity: 0.6, marginTop: "1rem" }}>
-          No todos at all
+        <p
+          className="text-center text-slate-400 text-sm py-4">
+          You're all clear 🎉 <br />
+          Add a new task to get started.
         </p>
       )
 
